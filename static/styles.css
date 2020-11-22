@@ -14,7 +14,7 @@ body,main,section{
 }
 
 form{
-    width: 50%;
+    width: 60%;
     position: absolute;
     margin: 0px auto;
     left: 0px;
@@ -26,10 +26,10 @@ form{
 
 
 label{
-    min-width: 35%;
+    /* width: 50%; */
     display: inline-block;
     /* display: block; */
-    background-color: sandybrown;
+    /* background-color: sandybrown; */
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
 
@@ -37,26 +37,79 @@ label{
 
 .form-line{
     margin: 10px auto;
+    width:100%
 }
 
 input{
-    display: inline-block;
-    min-width: 50%;
+
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
+    width: 100%;
 }
 
 i{
-    display: inline-block;
-    width: 4%;
+    /* padding: 0 10px; */
+    display: inline;
+    color: #777;
 }
 
+.input-icon-text{
+    display: inline-block;
+    background:#eee;
+}
+
+.input-group{
+    display: inline-table;
+    width: 60%;
+}
+
+
+.input-group > div {
+    display: table-cell;
+    background-color: lightgray;
+}
+
+.input-group-2{
+    display: inline-table;
+    width: 30%;
+}
+
+.input-group-2> div {
+    display: table-cell;
+    /* background-color: lightgray; */
+}
+
+.input-group-icon{
+    background:#eee;
+    color: #777;
+    width: 5%;
+    /* width: 2% */
+  }
+
+.input-group-width-for-label{
+    width: 30%;
+}
+
+.input-group-area{
+    background-color: lightgreen;
+}
+
+/* .input-label{
+    display: table-cell;
+    width: 60%;
+    padding:0px;
+} */
+
+
+
 @media screen and (max-width:990px){
-    label{
+    .input-group-2{
+        display: inline-table;
         width: 100%;
     }
 
-    input{
+    /* input{
         width:90%;
-    }
+    } */
 }
+
