@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@100;400;500&display=swap" rel="stylesheet">
+    <title> FORM SUBMIT </title>
+</head>
+<body>
+    <header></header>
+
+    <!-- main -->
+
+    <main>
+        <section>
+            <form action="#" name="main-form" method="GET" onsubmit="myFunc()">
+                <div class="form-line  ">
+                    <label for="full-name" class="">Full Name</label>
+                    <i class="fa fa-address-book" aria-hidden="true"></i>
+                    <input id="full-name" type="text" required placeholder="Full Name">
+                </div>
+
+                <div   class="form-line">
+                    <label for="add-line-1">Address Line 1</label>
+
+                    <i class="fa fa-address-book-o" aria-hidden="true"></i>
+                    <input id="add-line-1" type="text" required placeholder="Add line 1">                    
+                </div>
+                
+                 
+                <div  class="form-line">
+                    <label for="add-line-2">Address Line 2</label>
+
+                    <i class="fa fa-address-book-o" aria-hidden="true"></i>
+                    <input id="add-line-2" type="text" placeholder="Add line 2">
+                </div  class="form-line">
+
+                
+                <div class="form-line">
+                    <label for="city">City</label>
+
+                    <i class="fas fa-city"></i>
+                    <input id="city" type="text" required placeholder="City">   
+                </div class="form-line">
+        
+                
+                <div class="form-line">
+                    <label for="state">State/Region/Province</label>       
+
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <input id="state" type="text" required placeholder="State/Region/Province">
+                </div>
+                <div class="form-line">
+
+                    <label for="pin">Postal Code</label>
+
+                    <i class="fa fa-map-pin" aria-hidden="true"></i>
+                    <input id="pin" type="number" required placeholder="pin">
+                    
+                </div>
+                <div class="form-line">
+
+                    <label for="country">Country</label>
+
+                    <i class="fa fa-globe" aria-hidden="true"></i>
+                    <input id="country" type="text" required placeholder="Country">
+
+                </div>
+                <div class="form-line">
+                    
+                    <label for="email">E-mail</label>         
+                    
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    <input id="email" type="email" required placeholder="E-Mail">
+
+                </div>
+                <div class="form-line">
+                    
+                    <label for="pass">Password</label>   
+                    
+                    <i class="fa fa-key" aria-hidden="true"></i>
+                    <input id="pass" type="password" required placeholder="Password">
+                
+                </div class="form-line">
+
+
+                <div class="form-line">
+                    
+                    <label for="phone">Phone</label>   
+                    
+                    <i class="fa fa-key" aria-hidden="true"></i>
+                    <input id="phone" type="text" required placeholder="Phone Number">
+                
+                </div class="form-line">
+                
+                
+        
+            <div style="text-align: center; width: 100%;">
+                <button type="submit" name="">
+                    SUBMIT
+                </button>
+            </div>
+                    
+            </form>
+        </section>
+    </main>
+
+    <script src="https://kit.fontawesome.com/24a924ca11.js" crossorigin="anonymous"></script>
+    <script src="static/script.js"></script>
+</body>
+</html>

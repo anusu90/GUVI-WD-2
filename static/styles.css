@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+
+html {
+    width: 80%;
+    margin:10%;
+}
+
+body,main,section{
+    width: 100%;
+}
+
+form{
+    width: 50%;
+    position: absolute;
+    margin: 0px auto;
+    left: 0px;
+    right: 0px;
+    padding: 3% 10%;
+    background-color:lightblue;
+    border-radius: 5px;
+}
+
+
+label{
+    min-width: 35%;
+    display: inline-block;
+    /* display: block; */
+    background-color: sandybrown;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+
+}
+
+.form-line{
+    margin: 10px auto;
+}
+
+input{
+    display: inline-block;
+    min-width: 50%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+i{
+    display: inline-block;
+    width: 4%;
+}
+
+@media screen and (max-width:990px){
+    label{
+        width: 100%;
+    }
+
+    input{
+        width:90%;
+    }
+}
